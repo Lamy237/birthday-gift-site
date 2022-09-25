@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+/* || RESET */
+img {
+    display: block;
+}
+
+/* || UTILITY CLASSES */
+.highlight {
+    background-color: whitesmoke;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* || GENERAL STYLES */
+body {
+    font-size: 1.5rem;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    min-height: 100vh;
+
+    background-color: whitesmoke;
+    background-image: radial-gradient(whitesmoke, #A6AEB7);
+    color: #000;
+}
+
+/* || HERO */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__h2 {
+    margin: 30px auto 15px;
+}
+
+.hero__h4 {
+    margin: 0;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("images/clarissa.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+}
+
+/* || GIFT */
+.gift-section {
+    margin-top: 60px;
+}
+
+.gift__h2 {
+    margin-bottom: 24px;
+}
+
+.gift__p {
+    margin-top: 0px;
+}
+
+.gift__img {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("images/holiday-package.jpg");
+    background-size: cover;
+    background-position: left;
+    border: 5px solid #C3DDEB;
+    border-radius: 10px;
+}
+
+.gift__img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+.gift__img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+.gift__img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+.gift__img-badass:hover {
+    background-image: url("images/badass.gif");
+    background-position: center;
+}
+
+.gift__img-cheers {
+    height: 350px;
+}
+
+.gift__img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+.footer {
+    width: 500px;
+    margin: 50px auto 20px;
+    font-style: italic;
+}
+
+a,
+a:visited {
+    color: #000;
+}
+
+a:hover,
+a:focus {
+    color: #333;
+}
