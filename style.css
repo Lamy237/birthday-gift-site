@@ -92,7 +92,7 @@ body {
 }
 
 .gift__img-cheers {
-    height: 350px;
+    height: min(350px, 70vw);
 }
 
 .gift__img-cheers:hover {
@@ -100,7 +100,7 @@ body {
 }
 
 .footer {
-    width: 500px;
+    width: min(500px, 80vw);
     margin: 50px auto 20px;
     font-style: italic;
 }
